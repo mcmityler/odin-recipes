@@ -1,0 +1,63 @@
+
+/* General CSS */
+*{
+    /* outline: solid 2px red; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #f8ebf7;
+}
+.container{
+    width: 550px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 40px auto;
+    padding: 20px;
+}
+.photo{
+    width: 400px;
+    height: auto;
+    display:block;
+    margin: auto;
+}
+.photo-description{
+    width: 350px;
+    margin: 10px auto -5px;
+    font-size: 0.8rem;
+}
+.photo-container{
+    background-color: rgb(199, 177, 197);
+    border-radius: 20px;
+    width: 450px;
+
+    display:block;
+    margin: auto;
+    padding: 10px;
+}
+.home-link a{
+    background-color: #daf7c7;
+    padding: 7px;
+    border-radius: 5px;
+    border: solid 2px black;
+}
+.home-link a:hover{
+    background-color: #7b8d6f;
+    color: white;
+    border: solid 2px purple;
+
+}
+
+/* index.html -- Home Page CSS */
+.title{
+    text-align: center;
+    margin-top: -10px;
+}
+.recipe-list li{
+ padding: 10px
+}
+.recipe-container{
+    display:flex;
+    justify-content: center;
+}
+
+/* Hashbrown Recipe CSS */
